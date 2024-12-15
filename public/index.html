@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タイムカプセル</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>タイムカプセル</h1>
+    <p>未来の自分へメッセージを送ってみませんか？3年後に自動であなたへ届きます。</p>
+  </header>
+  <main>
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <label for="email">メールアドレス<span class="required">*</span>:</label>
+        <input type="email" id="email" name="email" placeholder="例: example@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">メッセージ<span class="required">*</span>:</label>
+        <textarea id="message" name="message" placeholder="未来の自分へのメッセージをここに書いてください。" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">送信</button>
+    </form>
+
+    <section class="examples">
+      <h2>過去のタイムカプセル紹介！</h2>
+      <article class="capsule">
+        <h3>未来の太郎と美咲へ</h3>
+        <p>
+          こんにちは、未来の私たち。今、北千住の小さなワンルームでこの手紙を書いています。机の上には書きかけの手紙とお茶のカップがあって、付き合って3ヶ月の私たちはちょっとドキドキしながら、3年後の未来を想像しています。
+        </p>
+        <p>
+          この部屋は狭いけど、二人にとっては本当に大切な場所です。一緒にスーパーで買い物したり、簡単なご飯を作ったり、夜遅くまでソファでくっつきながら映画を見たり。何気ない日常が、なんでこんなに楽しいんだろうね。未来の私たちも、些細なことで笑い合えているといいな。
+        </p>
+        <p>
+          3年後、この部屋のこと覚えてる？壁に貼った写真とか、ちょっとダサいけどお気に入りのカーテンとか。今はここが幸せの中心だけど、3年後には新しい場所で、もっと素敵な時間を過ごしてるかもしれないね。その頃の二人はどんなことを話して、どんな未来を夢見てるのかな？
+        </p>
+        <p>
+          この手紙を書いてる今、私たちはすっごく幸せです。お互いのことをもっと知りたいし、もっといい関係になりたいって毎日思っています。未来の二人はどう？もしケンカしたり、気まずくなったりしていたら、必ず仲直りしてね。絶対に別れたりしないでほしい。どんなことがあっても、二人で乗り越えてほしい。
+        </p>
+        <p>
+          3年後、この手紙を開くときに「この頃の私たちも可愛かったね」って笑い合えるといいな。そして、どんな未来でも、お互いを選び続けている自分たちに誇りを持てますように。これからも二人で幸せに笑っていられますように。
+        </p>
+        <p>心を込めて<br>今の太郎と美咲より</p>
+      </article>
+    </section>
+    
+    
+  </main>
+  <footer>
+    <p>© nonokaえも部</p>
+  </footer>
+</body>
+</html>

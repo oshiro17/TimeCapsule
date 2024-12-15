@@ -1,0 +1,129 @@
+/* 全体のスタイル */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #007BFF;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* フォーム全体 */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ラベルと入力フィールド */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* 必須フィールドのマーク */
+.required {
+  color: #d9534f;
+}
+
+/* ボタン */
+button {
+  padding: 12px 15px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+button:active {
+  background-color: #003f7f;
+  transform: scale(0.98);
+}
+
+/* タイムカプセル紹介セクション */
+.examples {
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+.examples h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+
+.examples .capsule {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.examples .capsule h3 {
+  color: #333;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.examples .capsule p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
